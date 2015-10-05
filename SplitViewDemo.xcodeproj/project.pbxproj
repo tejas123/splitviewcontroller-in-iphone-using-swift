@@ -170,6 +170,8 @@
 		F948A1031AAD625E0039D97B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = TheAppGuruz;
 				TargetAttributes = {
@@ -421,6 +423,7 @@
 				F948A12C1AAD625F0039D97B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F948A12D1AAD625F0039D97B /* Build configuration list for PBXNativeTarget "SplitViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -429,6 +432,7 @@
 				F948A12F1AAD625F0039D97B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

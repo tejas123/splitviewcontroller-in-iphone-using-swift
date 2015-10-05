@@ -31,7 +31,7 @@ class PrimaryViewController: UITableViewController {
 
  
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) 
 
        cell.textLabel?.text = marrColors.objectAtIndex(indexPath.row) as? String
 
@@ -40,7 +40,7 @@ class PrimaryViewController: UITableViewController {
     
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
    
-        var cell :UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
+        let cell :UITableViewCell = tableView.cellForRowAtIndexPath(indexPath)!
         let storyBoard : UIStoryboard = UIStoryboard (name: "Main", bundle: nil);
         let objSecondryViewController :SecondryViewController = storyBoard.instantiateViewControllerWithIdentifier("SecondryViewController") as! SecondryViewController
         objSecondryViewController.selectedColor = cell.textLabel?.text

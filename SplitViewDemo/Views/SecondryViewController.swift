@@ -18,7 +18,7 @@ class SecondryViewController: UIViewController {
         if selectedColor == nil {
             return
         }
-        var str : NSString = NSString(string: selectedColor) as NSString
+        let str : NSString = NSString(string: selectedColor) as NSString
         if str.isEqualToString("Red")
         {
             self.view.backgroundColor = UIColor.redColor()
